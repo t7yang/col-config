@@ -4,9 +4,6 @@ Col-Config is a collection for serveral common configuration files
 
 ## TypeScript
 
-- The default value for `Language and Environment` and `Modules` is always go to the latest, like: `ESNext` or `NodeNext`.
-- Do not include options:
-  - Path, like `include`, `exclude`, `outDir`...
-  - JSX
-  - JavaScript Support
-- `*.strict.json` includes some additional strict options.
+- Set the `target`, `lib`, and `module` yourself.
+- Strict version enabled these:
+  - `noImplicitAny`, `useUnknownInCatchVariables`, `noFallthroughCasesInSwitch`, `noUncheckedIndexedAccess`, `noImplicitOverride`, `noPropertyAccessFromIndexSignature`, `allowUnusedLabels`.
