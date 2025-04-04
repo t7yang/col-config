@@ -10,6 +10,7 @@
     "resolveJsonModule": true,
 
     /* Emit */
+    "importHelpers": true,
     "downlevelIteration": true,
     "newLine": "lf",
 
@@ -21,7 +22,6 @@
 
     /* Type Checking */
     "strict": true,
-    "noImplicitAny": true,
     "useUnknownInCatchVariables": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
